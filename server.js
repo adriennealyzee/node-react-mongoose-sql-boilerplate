@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(express.static(path.join(__dirname, '/../react-client/dist')));
+app.use(express.static(path.join(__dirname, './react-client/dist')));
 
 app.get('/items', (req, res) => {
   items.selectAll((err, data) => {
