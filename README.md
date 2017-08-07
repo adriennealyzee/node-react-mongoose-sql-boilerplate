@@ -1,4 +1,6 @@
-# Project Name #
+# Node, React, and Mongoose/SQL #
+ 
+A boilerplate for getting started with the best practices for building a web app.
  
 ## Getting started ##
 To install: `npm install`
